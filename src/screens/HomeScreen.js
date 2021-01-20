@@ -10,8 +10,8 @@ import {
   Image,
 } from "react-native";
 import { Rating } from "react-native-ratings";
-import BottomNavigation from "../src/components/BottomNavigation";
-import PopularFoodItem from "../src/components/PopularFoodItem";
+import BottomNavigation from "../components/BottomNavigation";
+import PopularFoodItem from "../components/PopularFoodItem";
 
 export default function HomeScreen({ navigation }) {
   const popularSearchItems = [
